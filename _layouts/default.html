@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'es' }}">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="googlebot" content="noindex,nofollow">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Taviraj:Regular,400,600%7CAllura:400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ "/assets/css/reset.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <script src="https://kit.fontawesome.com/1aec537cf6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+        <picture class="leaf">
+            <source
+                media="(min-resolution: 192dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px)"
+                srcset="{{ "/assets/images/2560.png" | relative_url }}">
+            <source
+                media="(min-resolution: 192dpi) and (min-width: 1024px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px)"
+                srcset="{{ "/assets/images/2048.png" | relative_url }}">
+            <source
+                media="(min-resolution: 192dpi) and (min-width: 768px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px)"
+                srcset="{{ "/assets/images/1536.png" | relative_url }}">
+            <source 
+                media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)" 
+                srcset="{{ "/assets/images/1200.png" | relative_url }}">
+            <source
+                media="(min-resolution: 144dpi) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+                srcset="{{ "/assets/images/1920.png" | relative_url }}">
+            <source
+                media="(min-resolution: 144dpi) and (min-width: 1024px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1024px)"
+                srcset="{{ "/assets/images/1536.png" | relative_url }}">
+            <source
+                media="(min-resolution: 144dpi) and (min-width: 768px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px)"
+                srcset="{{ "/assets/images/1152.png" | relative_url }}">
+            <source 
+                media="(min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5)" 
+                srcset="{{ "/assets/images/900.png" | relative_url }}">
+            <source 
+                media="(min-width: 1280px)" 
+                srcset="{{ "/assets/images/1280.png" | relative_url }}">
+            <source 
+                media="(min-width: 1024px)" 
+                srcset="{{ "/assets/images/1024.png" | relative_url }}">
+            <source 
+                media="(min-width: 768px)" 
+                srcset="{{ "/assets/images/768.png" | relative_url }}">
+            <source 
+                srcset="{{ "/assets/images/600.png" | relative_url }}">
+            <img 
+                alt="" 
+                data-src="{{ "/assets/images/768.png" | relative_url }}" 
+                src="{{ "/assets/images/768.png" | relative_url }}" 
+                class="default-image" />
+        </picture>
+        <header class="header-intro">
+            <h1 class="header-title">{{ site.title }}</h1>
+            <div class="header-subtitle">{{ page.weddingDate }}</div>
+            <div class="header-subtitle">{{ page.weddingLocation }}</div>
+        </header>
+        <div class="bar-fixed">
+            <h2 class="bar-title">{{ site.titleShort }}</h2>
+        </div>
+        <nav class="bar-language">
+            <div class="bar-language-container">
+                <ul class="bar-list">
+                    <li class="bar-elem">
+                        <a rel="nofollow" class="bar-elem-link" href="/"><span
+                                class="link{% if page.lang == "es" %}-active{% endif %}">Castellano</span></a>
+                    </li>
+                    <li class="bar-elem">
+                        <a rel="nofollow" class="bar-elem-link" href="/nl"><span
+                                class="link{% if page.lang == "nl" %}-active{% endif %}">Nederlands</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-title">{{ site.titleShort }}</div>
+            <div class="footer-subtitle">{{ page.weddingDateShort }}</div>
+        </div>
+    </footer>
+    <script src="{{ "/assets/js/script.js" | relative_url }}" /></script>
+</body>
+
+</html>

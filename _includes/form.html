@@ -1,0 +1,46 @@
+<div class="form-container">
+    <div id="success-message">{{page.attendanceSuccessPre}}"<span
+            id="success-name"></span>"{{page.attendanceSuccessPost}}</div>
+    <div id="error-message">{{page.attendanceError}}</div>
+    <form>
+        <div class="input-area">
+            <label>{{page.nameLabel}}</label>
+
+            <div class="input-container">
+                <input type="text" name="name" required />
+            </div>
+        </div>
+
+        <div class="input-area">
+            <label>{{page.attendance}}</label>
+            <div class="input-container">
+                <div>
+
+                    <label class="switch">
+                        <input type="checkbox" id="togBtn" name="confirmation" checked>
+                        <div class="slider round">
+                            <span class="on">{{page.attendanceYes}}</span>
+                            <span class="off">{{page.attendanceNo}}</span>
+                        </div>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="input-area">
+            <label>{{page.comment}} ({{page.optional}})</label>
+            <div class="input-container">
+                <textarea name="comment"></textarea>
+            </div>
+        </div>
+
+        <div class="submit-area">
+            <button type="submit" id="submit-form">{{page.submit}}</button>
+
+            <div class="spinner">
+                <i class="far fa-heart"></i>
+            </div>
+        </div>
+    </form>
+</div>
