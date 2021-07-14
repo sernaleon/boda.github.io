@@ -37,7 +37,7 @@ Wij waarderen het enorm dat jullie voor onze bruiloft naar Alicante willen komen
 
 ### Cadeautips
 
-Het meest belangrijkste is dat je erbij bent! Mocht je een cadeau willen geven, zouden we het erg op prijs stellen als je zou willen bijdragen aan de renovatie van onze badkamer. Onze bankrekening is:
+Het meest belangrijkste is dat je erbij bent! Mocht je een cadeau willen geven, zouden we het erg op prijs stellen als je zou willen bijdragen aan onze huwelijksreis. Onze bankrekening is:
 
 <i class="far fa-envelope"></i> NL69 ASNB 8830 0236 04 t.n.v. S van de Kuijt
 
