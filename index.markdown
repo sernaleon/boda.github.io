@@ -33,7 +33,7 @@ Te agradecemos que nos confirmes la nueva fecha lo antes posible rellenando este
 
 ### Regalos
 
-Para nosotros lo más importante es que puedas asistir, y que nos sintamos rodeados de nuestros seres queridos. Si quieres hacernos un regalo de boda, nos encantaría que nos ayudases a reformar el baño. Aquí tienes nuestra cuenta bancaria:
+Para nosotros lo más importante es que puedas asistir, y que nos sintamos rodeados de nuestros seres queridos. Si quieres hacernos un regalo de boda, nos encantaría que nos ayudases a irnos de luna de miel. Aquí tienes nuestra cuenta bancaria:
 
 <i class="far fa-envelope"></i> NL69 ASNB 8830 0236 04 (código SWIFT/BIC: ASNBNL21)
 
